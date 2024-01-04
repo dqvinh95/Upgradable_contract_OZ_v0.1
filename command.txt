@@ -1,0 +1,27 @@
+contractV1.sol (Proxy) =============> contractV2.sol
+
+https://docs.openzeppelin.com/upgrades-plugins/1.x/
+
+node -v
+
+npm -v
+
+npm install --save-dev hardhat
+
+npm install --save-dev @nomiclabs/hardhat-waffle
+
+npx hardhat init
+
+npx hardhat init
+
+npm install --save-dev @nomicfoundation/hardhat-ethers ethers
+
+https://chainlist.org/chain/80001
+
+https://rpc-mumbai.maticvigil.com
+
+npx hardhat accounts
+
+npx hardhat compile
+
+npx hardhat run --network matic .\scripts\deployV1.js
